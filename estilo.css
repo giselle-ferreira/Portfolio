@@ -1,0 +1,280 @@
+* {
+  /* border: 2px solid blue;*/
+}
+
+h1,
+h2,
+h3,
+body,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif, serif;
+  font-size: 64px;
+  font-weight: normal;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 span {
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+profissao {
+  font-size: 24px;
+}
+
+.t60 {
+  color: white;
+  font-size: 14px;
+}
+
+.subtitulo {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+body {
+  background-image: url("https://i.postimg.cc/B6YXNB3B/nebula2.jpg");
+  background-image: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  background-color: white;
+  padding: 32px 64px;
+}
+
+.dados {
+  display: inline-block;
+  margin-left: 24px;
+  margin-bottom: 16px;
+}
+
+.foto {
+  border: 4px solid #006494;
+  border-radius: 50%;
+  margin-bottom: -120px;
+  width: 310px;
+}
+
+main {
+  padding: 40px 70px;
+  display: flex;
+}
+
+.coluna-menor {
+  margin-top: 48px;
+  width: 650px;
+}
+
+.linha {
+  width: 200px;
+  border-top: 4px solid;
+  margin-top: 8px;
+}
+
+.experiencias .linha {
+  border-color: #9bd1e4;
+}
+
+.formacao .linha {
+  border-color: #9bd1e4;
+}
+
+.formacao {
+  margin-top: 32px;
+  color: white;
+}
+
+.experiencias {
+  color: white;
+}
+
+.coluna-menor img {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.coluna-menor li {
+  margin-top: 32px;
+  display: flex;
+}
+
+.conteudo {
+  display: inline-block;
+  margin-left: 8px;
+  color: white;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.coluna-maior {
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.coluna-maior h2 {
+  font-size: 38px;
+  margin-bottom: 20px;
+  margin-left: 16px;
+  color: white;
+}
+
+.habilidade {
+  background-color: white;
+  border-radius: 14px;
+  padding: 24px;
+  margin: 12px;
+  width: 288px;
+}
+
+.habilidade h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.habilidade p {
+  font-size: 18px;
+}
+
+.progresso {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.barra {
+  width: 20%;
+  height: 4px;
+  background-color: #006494;
+  margin-top: 10px;
+}
+
+.incompleto {
+  opacity: 0.2;
+}
+
+.habilidade li {
+  margin-top: 30px;
+}
+
+.habilidade li:first-child {
+  margin-top: 0px;
+}
+
+.habilidades {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projeto p {
+  font-size: 18px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.projeto h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.projeto img {
+  width: 350px;
+  height: 200px;
+  padding: 16px;
+}
+
+.projeto {
+  background-color: white;
+  border-radius: 14px;
+  padding: 24px;
+  margin: 12px;
+  width: 392px;
+}
+
+.projeto a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #006494;
+  color: white;
+  padding: 8px 24px;
+  font-family: "Open Sans", samns-serif;
+  border-radius: 4px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.projetos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: #181437;
+  color: white;
+  padding: 57.6px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#titulo-projetos {
+  margin-top: 24px;
+}
+
+a:hover {
+  color: #9bd1e4;
+  text-decoration: none;
+}
+
+.habilidades .habilidade:hover {
+  background-color: #d3d9db;
+}
+
+.projetos .projeto:hover {
+  animation: bounce 1s linear;
+}
+
+@keyframes bounce {
+  20%,
+  50%,
+  80%,
+  to {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  70% {
+    transform: translateY(-15px);
+  }
+  70% {
+    transform: translateY(-4px);
+  }
+}
